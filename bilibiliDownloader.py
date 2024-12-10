@@ -120,7 +120,7 @@ class BilibiliDownloader:
             audio_input = ffmpeg.input(audio_path)
 
             ffmpeg.output(video_input, audio_input, output_path, vcodec='libx264', acodec='aac',
-                          strict='experimental', audio_bitrate='192k', loglevel='error', threads=0, preset='ultrafast') \
+                          strict='experimental', audio_bitrate='192k', loglevel='error', threads=0, preset='fast') \
                 .run(overwrite_output=True)
 
             print(f"合并完成，输出文件: {output_path}")
