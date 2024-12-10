@@ -162,27 +162,28 @@ class BilibiliDownloader:
 
 # 示例：使用 BilibiliDownloader 下载和合并视频与音频
 if __name__ == "__main__":
-    # 示例：获取 Bilibili 视频 URL
-    url = get_bilibili_url()
-    print(f"获取的 Bilibili 视频 URL: {url}")
+    while True:
+        # 示例：获取 Bilibili 视频 URL
+        url = get_bilibili_url()
+        print(f"获取的 Bilibili 视频 URL: {url}")
 
-    # 从终端获取 SESSDATA
-    senss_data = get_sessdata()
+        # 从终端获取 SESSDATA
+        senss_data = get_sessdata()
 
-    # 如果没有输入 SESSDATA，设置为空字符串
-    cookies = {
-        'SESSDATA': senss_data if senss_data else ''
-    }
+        # 如果没有输入 SESSDATA，设置为空字符串
+        cookies = {
+            'SESSDATA': senss_data if senss_data else ''
+        }
 
-    # 设置反扒三杰
-    headers = {
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'referer': 'https://www.bilibili.com/',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    }
+        # 设置反扒三杰
+        headers = {
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'referer': 'https://www.bilibili.com/',
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        }
 
-    # 初始化下载器
-    downloader = BilibiliDownloader(url, headers=headers, cookies=cookies)
+        # 初始化下载器
+        downloader = BilibiliDownloader(url, headers=headers, cookies=cookies)
 
-    # 下载
-    downloader.download_and_merge()
+        # 下载
+        downloader.download_and_merge()
