@@ -10,6 +10,10 @@
 ## 激活虚拟环境(可选)
 在项目根目录下运行以下命令创建虚拟环境
 ```bash
+cd ~/Downloads/bilibiliDownloader-main
+```
+
+```bash
 python3 -m venv venv
 ```
 对于 macOS 或 Linux，运行：
