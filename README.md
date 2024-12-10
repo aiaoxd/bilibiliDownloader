@@ -13,6 +13,19 @@
 ```bash
 pip install -r requirements.txt
 
-```bash
+## 运行
+python bilibiliDownloader.py
 
-123
+## 如何获取SESSDATA
+  1.打开https://www.bilibili.com/
+  2.登录
+  3.右键检查或F12
+  4.network/网络  >>  选择一个请求  >>  Headers  >>  cookie >>   找到"SESSDATA=" >> 后面222位的值就是你的令牌
+
+一般为IEC结尾 例如:
+```bash
+b106234%2C1748070390%2C4cfd5%2Ab1CjAVsNIDKYDjQfJnua6M5Dd-ddkmRWoJwFgUuM53N3UQ6JegiIK0c-9o0fJQAzBMI3gSVlNGWkJJZjd1a2FtUDVjWnlVVS1NdjhpcmRval96aUdmUi01ZGNvdF8zVUVNMVFuRGJ3a....XNWOFdRaG1oZFdpcnJ2oNS1UbVBoSFZyRVJjSHVnNWRnIIEC(这是假的)
+
+
+
+
