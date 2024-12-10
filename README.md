@@ -25,7 +25,7 @@ python bilibiliDownloader.py
   1.打开 https://www.bilibili.com/
   2.登录
   3.右键检查或F12
-  4.F5刷新一下
+  4.F5/CTRL+R/CMD+R 刷新一下
     >>  4.1 network/网络
     >>  4.2 选择一个请求
     >>  4.3 Headers
