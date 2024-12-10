@@ -21,7 +21,7 @@ python bilibiliDownloader.py
 
 ## 如何获取SESSDATA
 ```bash
-  1.打开https://www.bilibili.com/
+  1.打开 https://www.bilibili.com/
   2.登录
   3.右键检查或F12
   4.F5刷新一下
