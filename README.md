@@ -24,15 +24,17 @@ python bilibiliDownloader.py
   1.打开https://www.bilibili.com/
   2.登录
   3.右键检查或F12
-  4.>>  network/网络
-    >>  选择一个请求
-    >>  Headers
-    >>  cookie
-    >>  找到中间"SESSDATA=xxxx;"
+  4.F5刷新一下
+    >>  4.1 network/网络
+    >>  4.2 选择一个请求
+    >>  4.3 Headers
+    >>  4.4 cookie
+    >>  4.5 找到中间"SESSDATA=xxxx;"
     >>  后面222位的值就是你的令牌
 ```
+<img width="1962" alt="image" src="https://github.com/user-attachments/assets/52a4966d-2ced-4d58-8ace-918003c5b0ee">
 
-<img width="1785" alt="image" src="https://github.com/user-attachments/assets/77de43d3-d573-4033-91b1-4be976483bc7">
+
 
 一般为IEC结尾 例如:
 ```bash
