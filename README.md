@@ -12,12 +12,13 @@
 
 ```bash
 pip install -r requirements.txt
-bash
+```
 
 ## 运行
 ```bash
 python bilibiliDownloader.py
-```bash
+```
+
 ## 如何获取SESSDATA
   1.打开https://www.bilibili.com/
   2.登录
@@ -27,7 +28,7 @@ python bilibiliDownloader.py
 一般为IEC结尾 例如:
 ```bash
 b106234%2C1748070390%2C4cfd5%2Ab1CjAVsNIDKYDjQfJnua6M5Dd-ddkmRWoJwFgUuM53N3UQ6JegiIK0c-9o0fJQAzBMI3gSVlNGWkJJZjd1a2FtUDVjWnlVVS1NdjhpcmRval96aUdmUi01ZGNvdF8zVUVNMVFuRGJ3a....XNWOFdRaG1oZFdpcnJ2oNS1UbVBoSFZyRVJjSHVnNWRnIIEC(这是假的)
-```bash
+```
 
 
 
