@@ -24,12 +24,12 @@ python bilibiliDownloader.py
   1.打开https://www.bilibili.com/
   2.登录
   3.右键检查或F12
-  4.network/网络
+  4.    >>  network/网络
         >>  选择一个请求
         >>  Headers
         >>  cookie
-        >>   找到中间"SESSDATA=xxxx;"
-        >> 后面222位的值就是你的令牌
+        >>  找到中间"SESSDATA=xxxx;"
+        >>  后面222位的值就是你的令牌
 ```
 一般为IEC结尾 例如:
 ```bash
