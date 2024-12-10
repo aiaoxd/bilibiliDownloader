@@ -9,7 +9,7 @@
 
 ## 激活虚拟环境(可选)
 ```bash
-python3 -m venv venv
+python -m venv venv
 ```
 对于 macOS 或 Linux，运行：
 ```bash
