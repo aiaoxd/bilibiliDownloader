@@ -12,7 +12,7 @@
 
 ```bash
 pip install -r requirements.txt
-```bash
+bash
 
 ## 运行
 ```bash
