@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ```bash
 python bilibiliDownloader.py
 ```
+按照提示 输入目标网址即可
 
 ## 如何获取SESSDATA
 ```bash
