@@ -14,5 +14,4 @@
 pip install -r requirements.txt
 
 
-```bash
 python bilibiliDownloader.py
