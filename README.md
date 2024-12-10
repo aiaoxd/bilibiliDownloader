@@ -30,6 +30,10 @@ python bilibiliDownloader.py
         >>  cookie
         >>  找到中间"SESSDATA=xxxx;"
         >>  后面222位的值就是你的令牌
+
+<img width="1785" alt="image" src="https://github.com/user-attachments/assets/77de43d3-d573-4033-91b1-4be976483bc7">
+
+
 ```
 一般为IEC结尾 例如:
 ```bash
