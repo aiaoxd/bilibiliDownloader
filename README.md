@@ -69,6 +69,10 @@ deactivate
 ```bash
 b106234%2C1748070390%2C4cfd5%2Ab1CjAVsNIDKYDjQfJnua6M5Dd-ddkmRWoJwFgUuM53N3UQ6JegiIK0c-9o0fJQAzBMI3gSVlNGWkJJZjd1a2FtUDVjWnlVVS1NdjhpcmRval96aUdmUi01ZGNvdF8zVUVNMVFuRGJ3a....................nJ2oNS1UbVBoSFZyRVJjSHVnNWRnIIEC(这是假的)
 ```
-
 SESSDATA一次输入后会记录在本地SESSDATA.txt文件内,如需更换,删除即可.
+
+## 使用说明视频地址
+```bash
+https://www.bilibili.com/video/BV1rRqkYdEkm
+```
 
