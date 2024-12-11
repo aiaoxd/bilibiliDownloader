@@ -71,7 +71,7 @@ b106234%2C1748070390%2C4cfd5%2Ab1CjAVsNIDKYDjQfJnua6M5Dd-ddkmRWoJwFgUuM53N3UQ6Je
 ```
 SESSDATA一次输入后会记录在本地SESSDATA.txt文件内,如需更换,删除即可.
 
-## 使用说明视频地址
+## 视频教程
 ```bash
 https://www.bilibili.com/video/BV1rRqkYdEkm
 ```
