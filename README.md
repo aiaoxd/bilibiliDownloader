@@ -8,7 +8,7 @@
 - SESSDATA为登录token,设置SESSDATA后可以下载账号权限内的最高画质视频,不设置则为未登录状态,视频画质为360P(貌似)
 
 ## 激活虚拟环境(可选)
-在项目根目录下运行以下命令
+在项目根目录下运行以下命令,例如
 对于 macOS 或 Linux，运行：
 ```bash
 cd ~/Downloads/bilibiliDownloader-main
